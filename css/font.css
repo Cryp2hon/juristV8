@@ -1,0 +1,47 @@
+
+/* Cormorant */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: local('Berlingske Serif Medium'), local('Berlingske-Serif-Medium'),
+        url('/Fonts/BerlingskeSerif-Md.woff2') format('woff2'),
+        url('/Fonts/BerlingskeSerif-Md.woff') format('woff'),
+        url('/Fonts/BerlingskeSerif-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'Proxima Nova Lt';
+    src: local('Proxima Nova Light'), local('ProximaNova-Light'),
+        url('/Fonts/ProximaNova-Light.eot') format('embedded-opentype'),
+        url('/Fonts/ProximaNova-Light.woff2') format('woff2'),
+        url('/Fonts/ProximaNova-Light.woff') format('woff'),
+        url('/Fonts/ProximaNova-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bd';
+    src: local('Proxima Nova Black Italic'), local('ProximaNova-BlackIt'),
+        url('/Fonts/ProximaNova-Bold.eot') format('embedded-opentype'),
+        url('/Fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('/Fonts/ProximaNova-Bold.woff') format('woff'),
+        url('/Fonts/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'),
+        url('/Fonts/ProximaNova-Regular.eot') format('embedded-opentype'),
+        url('/Fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('/Fonts/ProximaNova-Regular.woff') format('woff'),
+        url('/Fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style:  normal;
+}

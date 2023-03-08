@@ -1,0 +1,282 @@
+#overlay {
+  z-index: 99;
+  position: fixed;
+  background-color: #000;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.modal-theme {
+  width: 1140px;
+  height: 600px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 999;
+}
+.modal-theme_descript {
+  font-family: "Proxima Nova Lt";
+  text-align: left;
+  width: 311px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #A9A9A9;
+  margin-bottom: 20px;
+}
+.modal-theme_title {
+  font-family: "Proxima Nova Bd";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.3034px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #262626;
+  margin-bottom: -20px;
+}
+.modal-theme_subtitle {
+  width: 385px;
+  font-family: "Proxima Nova Lt";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28.3034px;
+  line-height: 34px;
+  color: #5E5E5E;
+  margin-bottom: -10px;
+}
+.modal-theme_time {
+  font-family: "Proxima Nova Lt";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.0138px;
+  line-height: 27px;
+  text-align: left;
+  color: #A0A0A0;
+  margin-bottom: 50px;
+}
+.modal-theme_inn {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+.modal-theme_content {
+  text-align: left;
+  padding-left: 100px;
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  border-radius: 15px 0 0 15px;
+}
+.modal-theme_img {
+  display: flex;
+  align-items: flex-end;
+  border-radius: 0 15px 15px 0;
+  background: rgba(38, 38, 38, 0.6);
+  position: relative;
+}
+.modal-theme_img img {
+  width: 458px;
+  max-height: 694px;
+  pointer-events: none;
+}
+
+.theme-form_wrap {
+  color: #222;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  width: 400px;
+}
+.theme-form_wrap .checkboxes {
+  width: 270px;
+}
+.theme-form_wrap .checkboxes .check {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.theme-form_wrap .checkboxes .check-icon input {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+.theme-form_wrap .checkboxes .check-text {
+  text-align: left;
+  font-family: "Proxima Nova Lt";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #262626;
+}
+.theme-form_wrap .checkboxes .check-text br {
+  display: none;
+}
+.theme-form_wrap form input {
+  width: 360px;
+  height: 60px;
+  border: none;
+  background: rgb(237, 237, 237);
+  font-size: 16px;
+  text-align: center;
+  font-family: "Proxima Nova Lt";
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.theme-form_wrap form button {
+  margin-bottom: 10px;
+  width: 360px;
+  height: 70px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #F69D4B 0%, #EE8524 100%);
+  box-shadow: 0 5px 0 0 #B86D29;
+  border: none;
+  color: #F1F1F1;
+  font-family: "Proxima Nova Bd";
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-shadow: 0px 2.05373px 1.02686px rgba(0, 0, 0, 0.15);
+}
+.theme-form_title {
+  font-size: 22px;
+  font-family: "Proxima Nova Rg";
+  margin-bottom: 20px;
+}
+
+@media (max-width: 750px) {
+  .modal-theme {
+    width: 322px;
+    height: 520px;
+  }
+  .modal-theme_inn {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .modal-theme_descript {
+    text-align: center;
+    width: 265px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A9A9A9;
+    margin-bottom: 20px;
+  }
+  .modal-theme_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .modal-theme_title {
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: -20px;
+  }
+  .modal-theme_subtitle {
+    width: 276px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: -10px;
+  }
+  .modal-theme_time {
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .modal-theme_head {
+    padding-left: 0;
+    margin: 0;
+    left: 0;
+  }
+  .modal-theme_content {
+    text-align: center;
+    padding-left: 0;
+    display: flex;
+    padding-top: 20px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .modal-theme_img {
+    display: none;
+  }
+  .theme-form_wrap {
+    width: 311px;
+  }
+  .theme-form_wrap .checkboxes {
+    width: 270px;
+  }
+  .theme-form_wrap .checkboxes .check {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .theme-form_wrap .checkboxes .check-icon input {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    margin-right: 10px;
+  }
+  .theme-form_wrap .checkboxes .check-text {
+    text-align: left;
+    font-family: "Proxima Nova Lt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #262626;
+  }
+  .theme-form_wrap .checkboxes .check-text br {
+    display: none;
+  }
+  .theme-form_wrap form input {
+    width: 311px;
+    height: 60px;
+    border: none;
+    background: rgb(237, 237, 237);
+    font-size: 16px;
+    text-align: center;
+    font-family: "Proxima Nova Lt";
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .theme-form_wrap form button {
+    margin-bottom: 10px;
+    width: 311px;
+    height: 70px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #F69D4B 0%, #EE8524 100%);
+    box-shadow: 0 5px 0 0 #B86D29;
+    border: none;
+    color: #F1F1F1;
+    font-family: "Proxima Nova Bd";
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 0px 2.05373px 1.02686px rgba(0, 0, 0, 0.15);
+  }
+  .theme-form_title {
+    font-size: 22px;
+    font-family: "Proxima Nova Rg";
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=main_modals.css.map */
